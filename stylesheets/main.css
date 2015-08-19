@@ -1,0 +1,234 @@
+/*Color Reference: turquoise: #4ECDC4; silver: #bdc3c7;*/
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    line-height: 1;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: sans-serif;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 1em;
+    line-height: 2;
+}
+
+nav {
+    min-height: 70px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+nav ul {
+    float: right;
+    padding-right: 5%;
+    margin: 2em auto;
+}
+
+.logo {
+    float: left;
+    padding: .5em;
+}
+
+nav h2 {
+    display: inline;
+    font-size: 24px;
+    line-height: 3;
+}
+
+nav li {
+    display: inline;
+    padding: 1em;
+}
+
+nav li a,
+nav li a:visited {
+    text-decoration: none;
+    color: black;
+    transition: all .2s ease-in-out;
+}
+
+nav li a:hover {
+    color: #1abc9c;
+    transform: scaleX(50px);
+    transform: rotateX(3deg);
+}
+
+header {
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header div {
+    background-color: #4ECDC4;
+    height: 100%;
+    padding: 8em 18em;
+    color: white;
+}
+
+
+footer {
+    background-color: #4ECDC4;
+    height: 40px;
+    position: relative;
+    margin-top: -18px;
+}
+
+footer p {
+    color: white;
+    font-size: 10px;
+    text-align: center;
+}
+
+section {
+    height: 600px;
+    padding: 1em;
+}
+
+#overview {
+    height: 400px;
+    background-color: #4ECDC4;
+}
+
+#productux {
+    background-image: url("../assets/product_user_experience_design.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#marketing {
+    background-image: url("../assets/websitedesign.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#consulting {
+    background-image: url("../assets/strategy.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cta {
+    background-color: #4ECDC4;
+    color: white;
+    height: 100px;
+}
+
+.cta h2 {
+    margin-left: 20%;
+    display: inline-block;
+    vertical-align: -webkit-baseline-middle;
+    margin-top: 20px;
+}
+
+.cta .btn {
+    background: #F62459;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.headbox {
+    width: 500px;
+    margin-top: 3em;
+    padding: .5em;
+    text-align: center;
+    background-color: black;
+    opacity: .7;
+    color: white;
+}
+
+
+/* General button style (reset) */
+
+.btn {
+    border: 3px solid #fff;
+    color: #fff;
+    background: black;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    padding: 25px 80px;
+    display: inline-block;
+    margin: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.btn:after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.btn:hover,
+.btn:active {
+    color: black;
+    background: #fff;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        text-align: center;
+    }
+    header {
+        height: 550px;
+    }
+    header div {
+        padding: 8em 1em;
+    }
+    nav {
+        max-height: 70px;
+    }
+    nav li {
+        visibility: hidden;
+    }
+    nav h2 {
+        display: inline;
+        font-size: 24px;
+        line-height: 1;
+        float: left;
+        padding-left: 1em;
+    }
+    h1 {
+        font-size: 2.8em;
+    }
+    h2 {
+        font-size: 1.4em;
+    }
+    p {
+        line-height: 1.5;
+    }
+    .btn {
+        padding: 25px;
+    }
+}
