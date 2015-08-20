@@ -81,7 +81,6 @@ header div {
     color: white;
 }
 
-
 footer {
     background-color: #4ECDC4;
     height: 40px;
@@ -100,21 +99,59 @@ section {
     padding: 1em;
 }
 
-.onethird {
-    width: 31%;
-    display: inline-block;
-    text-align: center;
-    margin: 3% 1%;
-}
-
-#overview {
-    height: 400px;
-    background: -webkit-linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../assets/product_user_experience_design.jpg");
-    background: -moz-linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../assets/product_user_experience_design.jpg");
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../assets/product_user_experience_design.jpg");
+#productux {
+    background-image: url("../assets/product_user_experience_design.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+#marketing {
+    background-image: url("../assets/websitedesign.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#consulting {
+    background-image: url("../assets/strategy.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cta {
+    background-color: #4ECDC4;
+    color: white;
+    height: 100px;
+}
+
+.cta h2 {
+    margin-left: 20%;
+    display: inline-block;
+    vertical-align: -webkit-baseline-middle;
+    margin-top: 20px;
+}
+
+.cta .btn {
+    background: #F62459;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.headbox {
+    width: 500px;
+    margin-top: 3em;
+    padding: .5em;
+    text-align: center;
+    background-color: black;
+    opacity: .7;
+    color: white;
+}
+
 
 /* General button style (reset) */
 
