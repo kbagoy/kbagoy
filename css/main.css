@@ -251,7 +251,7 @@
     color: #1ABC9C;
 }
 
-.content-2-4 h1 {
+.content-2-4 h2 {
     color: #ffffff;
 }
 
@@ -482,6 +482,10 @@
     background-color: #D90000;
 }
 
+.big-social .social-item.rss a:hover,
+.big-social .social-item.rss a:focus {
+    background-color: #e67e22;
+}
 
 /*  FOOTER 1-4
 /*----------------------------------------------------*/
