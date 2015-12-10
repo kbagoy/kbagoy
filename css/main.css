@@ -341,32 +341,32 @@
 .contact-1 .form-container {
     margin-top: 60px;
 }
-
-.contact-1 .contact-info {
-    margin-top: 40px;
+.contact-info {
+    margin-top: -10px;
     padding: 0;
     list-style: none;
+    text-align: center;
 }
 
-.contact-1 .contact-info span {
+.contact-info span {
     margin-right: 7px;
     color: #1abc9c;
     padding-right: 5px;
 }
 
-.contact-1 .contact-info li {
+.contact-info li {
     display: inline-block;
     margin: 0 10px;
     font-size: 15px;
     font-weight: 700;
-    color: #2e2e2e
+    color: #fff
 }
 
-.contact-1 .contact-info li a {
-    color: #2e2e2e
+.contact-info li a {
+    color: #fff
 }
 
-.contact-1 .contact-info li a:hover {
+.contact-info li a:hover {
     color: #1abc9c
 }
 
@@ -376,7 +376,7 @@
 }
 
 #message {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     padding: 0;
 }
 
@@ -389,6 +389,11 @@
     border-radius: 6px;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
+}
+
+.btn-inline {
+    background: none;
+    border: none;
 }
 
 
