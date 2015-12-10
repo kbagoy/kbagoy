@@ -404,16 +404,17 @@
     -o-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
-    padding: 140px 0;
+    padding: 40px 0;
 }
 
 .promo-3 h1 {
     font-size: 60px;
     color: #ffffff;
+    font-weight: 400;
 }
 
 .promo-3 h2 {
-    font-weight: 600;
+    
     color: #ffffff;
 }
 
@@ -567,6 +568,10 @@
     }
     #header-1 .main-nav .navbar-header .tagline {
         display: none;
+    }
+
+    .btn-outline-xl {
+        padding: 10px;
     }
 
 
