@@ -1,777 +1,643 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <title> Kate Bagoy, UI &amp; UX Designer </title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="keywords" content="UX designer, ui designer, freelance designer, ux, ui">
-        <meta name="description" content="Kate Bagoy, Full-stack (UI, UX) Designer">
-        <link rel="shortcut icon" href="ico/favicon.png">
-        <!-- Core CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
-        <!-- Style Library -->
-        <link href="css/style-library-1.css" rel="stylesheet" type="text/css">
-        <!-- Vendor Styles -->
-        <link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
-        <!-- Block Styles (Feel free to remove any that you aren't using in your final export) -->
-        <link href="css/main.css" rel="stylesheet" type="text/css">
-        <link href="css/header-3.css" rel="stylesheet" type="text/css">
-        <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="keywords" content="UX designer, UI designer, freelance designer, ux, ui, UX Consultant, Product Designer">
+    <meta name="description" content="Kate Bagoy, Full-stack (UI, UX) Designer">
+    <title>Kate Bagoy | Full-Stack UX Design</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <!--   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"> -->
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles/app.css">
+    <script src="https://use.fontawesome.com/b3783d89f8.js"></script>
+    <script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-          ga('create', 'UA-7177103-3', 'auto');
-          ga('send', 'pageview');
+    ga('create', 'UA-7177103-3', 'auto');
+    ga('send', 'pageview');
+    </script>
+    <script>
+    ! function(g, s, q, r, d) {
+        r = g[r] = g[r] || function() {
+            (r.q = r.q || []).push(
+                arguments)
+        };
+        d = s.createElement(q);
+        q = s.getElementsByTagName(q)[0];
+        d.src = '//d1l6p2sc9645hc.cloudfront.net/tracker.js';
+        q.parentNode.
+        insertBefore(d, q)
+    }(window, document, 'script', '_gs');
 
-        </script>
-        <script>
-          !function(g,s,q,r,d){r=g[r]=g[r]||function(){(r.q=r.q||[]).push(
-          arguments)};d=s.createElement(q);q=s.getElementsByTagName(q)[0];
-          d.src='//d1l6p2sc9645hc.cloudfront.net/tracker.js';q.parentNode.
-          insertBefore(d,q)}(window,document,'script','_gs');
+    _gs('GSN-291138-L');
+    </script>
+</head>
 
-          _gs('GSN-291138-L');
-        </script>
-        <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
-        <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-      <script src="js/respond.min.js"></script>
-    <![endif]-->
-    
-    </head>
+<body>
+    <nav class="navbar navbar-light navbar-fixed-top">
+        <button class="navbar-toggler hidden-sm-up pull-xs-right" type="button" data-toggle="collapse" data-target="#kbNavbar" aria-controls="kbNavbar" aria-expanded="true" aria-label="Toggle navigation">
+            &#9776;
+        </button>
+        <a class="navbar-brand text-uppercase" href="#"><img src="img/Kate-Bagoy-sq.jpg" class="img-circle" alt="kate Bagoy's Face">
+            <h3>Kate Bagoy<span class="hidden-md-down"> | Full Stack Design</span></h3></a>
+        <div class="collapse navbar-toggleable-xs pull-sm-right" id="kbNavbar" aria-expanded="false">
+            <ul class="nav navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#results" onclick="_gs('event', 'Clicked clients nav')">Clients</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services" onclick="_gs('event', 'Clicked services nav')">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#casestudy" onclick="_gs('event', 'Clicked work nav')">My Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://photography.katebagoy.com">Photography</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about" onclick="_gs('event', 'Clicked about nav')">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-primary" href="#contact" onclick="_gs('event', 'Clicked hire me nav')">Hire Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-    <body>
-        <!-- Paste Content Blocks BELOW -->
-        <!-- HEADER 1 -->
-        <header id="header-1">
-            <!-- Navbar -->
-            <nav class="main-nav navbar-fixed-top bg-white headroom headroom--pinned">
-                <div class="container-fluid">
-                    <!-- Brand and toggle -->
-                    <div class="navbar-header turquoise">
-                        <button type="button" class="navbar-toggle bg-turquoise" data-toggle="collapse" data-target=".navbar-collapse" onclick="_gs('event', 'expanded mobile nav')">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button> 
-                        <img src="images/brand/Kate-Bagoy-sq.jpg" class="brand-img img-responsive img-circle" alt="kate Bagoy's Face">
-                        <h3>Kate Bagoy</h3><h3 class="tagline">| Full-Stack Design</h3>
+    <section id="stage">
+        <div id="stage-caption">
+            <h1 class="display-3">Killer Design for Startups</h1>
+            <p class="lead">From branding &amp; websites that convert to comprehensive web and mobile apps - I transform ideas into beautiful, user-focused designs, freeing you up to focus on what matters: building your business.</p>
+            <a href="#contact" class="btn btn-lg btn-secondary text-uppercase" onclick="_gs('event', 'Clicked Hero button')"><span class="fa fa-rocket"></span> <strong>Let's Work Together</strong></a>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-2">
+                            <span class="fa fa-laptop fa-2x"></span>
+                        </div>
+                        <div class="col-xs-10">
+                            <h2>UX Design</h2>
+                            <p> Research, Sketches, Wireframes, Walkthroughs, User Flows, Mockups </p>
+                        </div>
                     </div>
-                    <!-- Navigation -->
-                    <div class="collapse navbar-collapse">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li class="nav-item"> <a href="#" >Home</a> </li>
-                            <li class="nav-item"> <a href="#results" onclick="_gs('event', 'Clicked clients nav')">Clients</a> </li>
-                            <li class="nav-item"> <a href="#packages" onclick="_gs('event', 'Clicked services nav')">Services</a> </li>
-                            <li class="nav-item"> <a href="#casestudy" onclick="_gs('event', 'Clicked work nav')">My Work</a> </li>
-                            <li class="nav-item"> <a href="#about" onclick="_gs('event', 'Clicked about nav')">About</a> </li>
-                            <li class="nav-item"> <a href="http://katebagoy.com/blog/" onclick="_gs('event', 'Clicked hire me nav')">Blog</a> </li>
-                            <li class="nav-item"> <a href="#contact" onclick="_gs('event', 'Clicked hire me nav')">Hire Me</a> </li>
-                        </ul>
-                        <!--//nav-->
+                </div><!-- .col-sm-3 -->
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-2"> 
+	                        <span class="fa fa-mobile fa-2x"></span>
+                        </div>
+                        <div class="col-xs-10">
+                            <h2>UI Design</h2>
+                            <p> Comps, Interaction Specs, Clickable Prototypes, Style Guides, Visual Assets </p>
+                        </div>
                     </div>
-                    <!--// End Navigation -->
-                </div>
-                <!--// End Container -->
-            </nav>
-            <!--// End Navbar -->
-        </header>
-        <!--// END HEADER 1 -->
+                </div><!-- .col-sm-3 -->
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-2">
+	                        <span class="fa fa-pencil fa-2x"></span>
+                        </div>
+                        <div class="col-xs-10">
+                            <h2>Branding</h2>
+                            <p> Logos, Advertisements, Stationary, Collateral, Websites, Illustrations </p>
+                        </div>
+                    </div>
+                </div><!-- .col-sm-3 -->
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-2">
+	                        <span class="fa fa-code fa-2x"></span>
+                        </div>
+                        <div class="col-xs-10">
+                            <h2>Web Development</h2>
+                            <p> Responsive websites, prototypes or landing pages built with HTML/CSS, Bootstrap, or Wordpress. </p>
+                        </div>
+                    </div>
+                </div><!-- .col-sm-3 -->
+            </div><!-- .row -->
+        </div> <!-- .container -->
+    </section>
 
-        <!-- Start Promo 3 -->
-        <section id="hero" class="content-block promo-3 bg-deepocean">
-            <div class="container text-center">
-                <div>
-                    <h1>Killer Design for Startups</h1>
+    <section id="results">
+    	<div class="container">
+    		<h3 class="display-4 text-sm-center">Companies who <a href="#contact">hire me</a> get results</h3>
+    		<div class="row clientlogos">
+    		    <div class="col-md-2 col-sm-4 col-xs-6">
+    		        <img alt="Alma Logo" src="img/client-logos/alma-logo.jpg">
+    		    </div>
+    		    <div class="col-md-2 col-sm-4 col-xs-6">
+    		        <img alt="Graph Alchemist Logo" src="img/client-logos/graph-alchemist.png">
+    		    </div>
+    		    <div class="col-md-2 col-sm-4 col-xs-6">
+    		        <img alt="Genwi Logo" src="img/client-logos/genwi.png">
+    		    </div>
+    		    <div class="col-md-2 col-sm-4 col-xs-6">
+    		        <img alt="Nike Logo" src="img/client-logos/nike.png">
+    		    </div>
+    		    <div class="col-md-2 col-sm-4 col-xs-6">
+    		        <img alt="Ricoh Logo" src="img/client-logos/ricoh-logo.png">
+    		    </div>
+    		    <div class="col-md-2 col-sm-4 col-xs-6">
+    		        <img alt="IDL Worldwide Logo" src="img/client-logos/idl-logo.jpg">
+    		    </div>
+    		</div><!--client logos-->
+    		<div class="row clientresults">
+    			<div class="col-md-4 col-sm-6">
+	    			<div class="col-xs-2">
+	    			    <span class="fa fa-2x fa-trophy"></span>
+	    			</div>
+	    			<div class="col-xs-10">
+	    			    <h4>Product Design Awards</h4>
+	    			    <p> Alma has won mulitple awards for data visualization and ease-of-use. Tripfind.me took Best Design at the 2012 Portland Startup Weekend. </p>
+	    			</div>
+    			</div>
+    			<div class="col-md-4 col-sm-6">
+	    			<div class="col-xs-2">
+	    			    <span class="fa fa-2x fa-star"></span>
+	    			</div>
+	    			<div class="col-xs-10">
+	    			    <h4>5-Star User Ratings</h4>
+	    			    <p> Users consistently rate the Alma platform 4-stars or higher in ease-of-use and say things like this: "I'm glad to finally have a tool that makes sense." </p>
+	    			</div>
+    			</div>
+    			<div class="col-md-4 col-sm-6">
+	    			<div class="col-xs-2">
+	    			    <span class="fa fa-2x fa-heart"></span>
+	    			</div>
+	    			<div class="col-xs-10">
+	    			    <h4>Increased Engagement</h4>
+	    			    <p> After implementing a streamlined user flow and updated UI for Genwi's mobile app builder platform, user engagement increased 20%. </p>
+	    			</div>
+    			</div>
+			</div>
+			<div class="row clientresults">
+    			<div class="col-md-4 col-sm-6">
+	    			<div class="col-xs-2">
+	    			    <span class="fa fa-2x fa-line-chart"></span>
+	    			</div>
+	    			<div class="col-xs-10">
+	    			    <h4>Conversion Rate Growth</h4>
+	    			    <p> By rebranding, enhancing landing page designs, utilizing A/B testing and modifying call-to-actions, conversation rates at GraphAlchemist rose 15%. </p>
+	    			</div>
+    			</div>
+    			<div class="col-md-4 col-sm-6">
+	    			<div class="col-xs-2">
+	    			    <span class="fa fa-2x fa-dollar"></span>
+	    			</div>
+	    			<div class="col-xs-10">
+	    			    <h4>More Online Leads</h4>
+	    			    <p> Relaunching the ABS Ricoh website, in conjunction with targeted email marketing &amp; inbound linking, increased online leads by a whopping 300%. </p>
+	    			</div>
+    			</div>
+    			<div class="col-md-4 col-sm-6">
+	    			<div class="col-xs-2">
+	    			    <span class="fa fa-2x fa-search"></span>
+	    			</div>
+	    			<div class="col-xs-10">
+	    			    <h4>Top Search Results</h4>
+	    			    <p> Within days of launch, both CUP Coffee Company and Cannery Row Apartments made it to the top of front page results for their desired keywords. </p>
+	    			</div>
+    			</div>
+    		</div><!-- client results -->
+    	</div>
+    </section>
+
+    <section id="testify" class="feature-dark">
+        <div class="container">
+            
+            <div class="feature-content">
+	            <div class="row">
+                    <div class="col-lg-8 offset-sm-2">
+	                    <span class="fa fa-quote-left fa-2x white pull-left"></span>
+                        <h2>Kate is the best UX designer I've ever worked with. Her uncanny ability to create something out of nothing - that is, a vague idea into an elegant, functional design never ceases to amaze me.</h2><span class="fa fa-quote-right fa-2x white pull-right"></span>
+                        <h6 class="text-muted">Jack Macleod, President and CRO - <a href="http://getalma.com/" target="_blank">Alma</a></h6>
+                    </div>
                 </div>
-                <div>
-                    <h2>From branding &amp; websites that convert to comprehensive web and mobile apps - I transform ideas into beautiful, user-focused designs, freeing you up to focus on what matters: building your business.</h2>
-                </div>
-                <a href="#contact" class="turquoise btn btn-default btn-outline btn-outline-xl" onclick="_gs('event', 'Clicked Hero button')"><span class="fa sunflower fa-rocket"></span> Let's Work Together</a>
             </div>
-            <!-- /.container -->
-        </section>
-        <!--// END Promo 3 -->
-        <!-- Start Shop 1-2 -->
-        <section id="skills" class="content-block bg-black turquoise">
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="feature-content">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1 text-sm-center">
+                        <h2>Packages for all stages of business</h2>
+                        <p class="lead">Not sure what you need, or need a different combo? Not to worry - all clients recieve a detailed, customized quote &amp; project plan based on specific business needs and deliverables.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="row pushdown">
+                    <div class="col-md-4">
+                        <span class="fa fa-rocket fa-5x bigicon"></span>
+                        <h4>The Product Marketer</h4>
+                        <p class="text-muted">Typical Timeline: 1-2 weeks</p>
+                        <h6> Starting at $1,500</h6>
+                        <p>Killer ideas need a killer brand &amp; marketing materials. I design logos and identity packages, marketing collateral, landing pages &amp; engaging responsive websites, using the tools that work for you: custom HTML/CSS, Bootstrap or Wordpress Theme Customizations.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa fa-code fa-5x bigicon"></span>
+                        <h4>The UI Designer</h4>
+                        <p class="text-muted">Typical Timeline: 2-3 weeks</p>
+                        <h6> Starting at $4,000</h6>
+                        <p>Based on your business needs, I provide visual designs, interaction specs and clickable InVision protytypes for your developers to build from. Depending on the complexity of your app, I may also provide Front-End Development or HTML/CSS prototypes.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="bigicon"><i class="fa fa-laptop fa-5x"></i><i class="fa fa-mobile fa-5x"></i></span>
+                        <h4>The Product Team</h4>
+                        <p class="text-muted">Typical Timeline: 3-6 weeks</p>
+                        <h6> Starting at $10,000</h6>
+                        <p>From idea to MVP &amp; launch - This is my specialty! UX &amp; UI design for web or mobile applications, suggested versioning plans, user onboarding considerations and more. I can assist with UX research &amp; strategy or simply design based on research you provide.</p>
+                    </div>
+                </div>
+                <div class="row pushdown">
+                    <div class="col-lg-8 offset-lg-2 text-sm-center">
+	                    <a href="https://calendly.com/kbagoy/consult" target="_blank" onclick="Calendly.showPopupWidget('https://calendly.com/kbagoy');return false;_gs('event', 'Clicked quote request')" role="button" class="btn btn-outline-danger btn-lg">Schedule a FREE 30-Minute Consultation</a>
+                    </div>
+                </div>
+                <div class="row pushdown text-sm-center">
+                	<small><i class="fa fa-clock-o"></i> In a hurry to launch? Need last minute materials for your shareholders meeting? I understand the startup life and want to help! Ask me about RUSH projects.</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="casestudy" class="feature-dark">
+	    <div class="container">
+	        	<div class="feature-content">
+	    	    	<h2 class="text-sm-center display-3">Featured Work</h2>
+	        		<div class="row pushdown">
+	        			<div class="col-md-6">
+	        				<img class="img-responsive" src="img/alma-websitedesign.png" alt="screencap of getalma website">
+	        			</div>
+	        			<div class="col-md-6">
+                            <h3>Case-Study: Alma</h3>
+	        				<p> In addition to designing prototypes, wireframes, user flows and iterative feature comps for the Alma learning management and student information platform, I work with the product team on strategy &amp; implementation support, provide creative direction for all brand materials and designed the <a href="http://www.getalma.com" target="_blank">getalma.com</a> marketing site. </p>
+	        				<div class="row">
+	        				    <div class="col-xs-1">
+	        				        <span class="fa fa-user fa-2x"></span>
+	        				    </div>
+	        				    <div class="col-xs-10">
+	        				        <div>
+	        				            <h4>Role-Based Design</h4>
+	        				        </div>
+	        				        <div>
+	        				            <p> Different users have different needs so our app utilizes role-based workflows. This means designing things multiple times, but it’s ultimately a better experience for our schools. </p>
+	        				        </div>
+	        				    </div>
+	        				</div>
+	        				<!-- /.row -->
+	        				<div class="row">
+	        				    <div class="col-xs-1">
+	        				        <span class="fa fa-dashboard fa-2x"></span>
+	        				    </div>
+	        				    <div class="col-xs-10">
+	        				        <div>
+	        				            <h4>Complex</h4>
+	        				        </div>
+	        				        <div>
+	        				            <p> In my first year we redesigned the app from the ground up – including more than 100 features – that’s a lot of user flows! </p>
+	        				        </div>
+	        				    </div>
+	        				</div>
+	        				<!-- /.row -->
+	        				<div class="row">
+	        				    <div class="col-xs-1">
+	        				        <span class="fa fa-certificate fa-2x"></span>
+	        				    </div>
+	        				    <div class="col-xs-10">
+	        				        <div>
+	        				            <h4>Innovative</h4>
+	        				        </div>
+	        				        <div>
+	        				            <p> We’ve taken an innovative approach to design, adding time-saving enhancements and bringing data forward to provide insight where possible. </p>
+	        				        </div>
+	        				    </div>
+	        				</div>
+	        				<!-- /.row -->
+	        				<div class="row">
+	        				    <div class="col-xs-1">
+	        				    </div>
+	        				    <div class="col-xs-10">
+	        				        <div class="text-uppercase">
+	        				            <a href="http://getalma.com" class="btn btn-outline-primary outline-light" target="_blank" onclick="_gs('event', 'Clicked visit alma')">Visit Alma</a>
+	        				            <a href="#contact" class="btn btn-outline" onclick="_gs('event', 'Clicked hire button after alma')"> or Hire Me</a>
+	        				        </div>
+	        				    </div>
+	        				</div>
+	        				<!-- /.row -->
+	        			</div>
+	        		</div>
+	        	</div>
+	    	
+    	</div>
+    </section>
+
+    <section id="featuredwork">
+		<div class="col-md-3 col-sm-6 project">
+			<div class="background-image-holder">
+				<img class="background-image" src="img/Portland-CUP-Coffee-Logo.png" alt="cup coffee logo">
+			</div>
+			<div class="hover-state align-vertical">
+				<h3>Cup Coffee Company</h3>
+				<p>Identity, Marketing Site Design, Wordpress Customization</p>
+				<a href="http://katebagoy.com/blog/1952/" class="btn btn-outline-secondary outline-light" onclick="_gs('event', 'Clicked Cup case study')" target="_blank">See More</a>
+			</div>
+		</div>
+
+		<div class="col-md-3 col-sm-6 project">
+			<div class="background-image-holder">
+				<img class="background-image" src="img/tripfindme-interaction-design-UX.png" alt="screenshot of tripfinder product design (UI)">
+			</div>
+			<div class="hover-state align-vertical">
+				<h3>Tripfind.me</h3>
+				<p>2012 Portland Startup Weekend Projects - UI, UX for Travel Discovery</p>
+				<a href="http://katebagoy.com/blog/tripfindme/" class="btn btn-outline-secondary outline-light" onclick="_gs('event', 'Clicked Tripfind case study')" target="_blank">See More</a>
+			</div>
+		</div>
+
+		<div class="col-md-3 col-sm-6 project">
+			<div class="background-image-holder">
+				<img class="background-image" src="img/iSites-monetize.png" alt="mock of mobile application from genwi app builder">
+			</div>
+			<div class="hover-state align-vertical">
+				<h3>Genwi.com</h3>
+				<p>Genwi App Builder - Webapp UI/UX design, Mobile app UI/UX, Marketing Website, Marketing collateral</p>
+				<a href="http://katebagoy.com/blog/genwi/" class="btn btn-outline-secondary outline-light" onclick="_gs('event', 'Clicked genwi case study')" target="_blank">See Case Study</a>
+			</div>
+		</div>
+
+		<div class="col-md-3 col-sm-6 project">
+			<div class="background-image-holder">
+				<img class="background-image" src="img/graph-alchemist-landing-2.jpg" alt="screencap of social graph user-interface">
+			</div>
+			<div class="hover-state align-vertical">
+				<h3>GraphAlchemist (Formerly Wikisway)</h3>
+				<p>Webapp UX &amp; UI for graph database visualization, marketing design, website dev</p>
+				<a href="#" class="btn btn-outline-secondary outline-light disabled" onclick="_gs('event', 'Clicked graphalchecmist casestudy')">Case Study Coming Soon</a>
+			</div>
+		</div>
+    </section>
+
+    <section id="about">
+    	<div class="container">
+    		<div class="feature-content">
+    			<div class="row">
+    			    <div class="col-lg-4 col-md-5 col-sm-12"> <img class="img-responsive img-circle" src="img/Kate-Bagoy.jpg" alt="Kate Bagoy Headshot">
+    			    </div>
+    			    <div class="col-lg-8 col-md-7 col-sm-12">
+    			        <div>
+    			            <h2> Who is Kate?</h2>
+    			        </div>
+    			        <div>
+    			            <p> After earning a BFA in graphic design, I started my career working for Nike. While I loved the design culture, I loved tech more and left the berm to earn an MBA in Marketing &amp; move to Silicon Valley to work as a product manager at a mobile startup. While the bay area wasn't a fit, I've been working with startups and new businesses since -- I love helping companies grow, and I can't imagine only doing one type of design job every day! </p>
+    			            <p> I am also a photographer, an animal lover, a volunteer, a constant learner, a world-traveller, an organizer, an artist, an avid reader and, at the core, a problem solver – I thrive when I can observe, analyze, organize and take projects apart only to put them together in a new and creative way. </p>
+    			            <p> I live and work (remotely) in Savannah, GA but travel whenever possible! In January&nbsp;2017, I will be departing the US for 12-months abroad with <a href="http://www.remoteyear.com/" target="_blank">Remote Year</a>, spending every month in a new city. To share the journey, <a href="http://instagram.com/kbagoy" target="_blank">follow me on Instagram</a>.</p>
+    			            <p> For complete work history and specialties, visit <a href="http://linkedin.com/in/katebagoy" target="_blank">LinkedIn</a>. For more travel photos or to purchase prints, visit my <a href="http://photography.katebagoy.com" target="_blank">photography portfolio</a>. </p>
+    			        </div>
+    			    </div>
+    			</div><!-- /.row -->
+    		</div>
+    	</div>
+    </section>
+
+    <section id="photos">
+		<div class="project-wrapper">
+            <div class="col-md-3 col-sm-6 project">
+                <div class="background-image-holder"> <img class="background-image" alt="Photo of Viewfinder with Beach in Background" src="img/photos/IMG_1706_Jax.jpg">
+                </div>
+                <div class="hover-state">
+                    <div class="align-vertical">
+                        <h3><span class="fa fa-map-marker"></span> Jacksonville Beach, Florida</h3>
+                        <p> Public Fishing Pier </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 project">
+                <div class="background-image-holder"> <img class="Photo of Floating Homes" alt="Background Image" src="img/photos/DSCF4375_Tonle_Sap.jpg">
+                </div>
+                <div class="hover-state">
+                    <div class="align-vertical">
+                        <h3><span class="fa fa-map-marker"></span> Siem Reap, Cambodia</h3>
+                        <p> Tonle Sap Floating Village </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 project">
+                <div class="background-image-holder"> <img class="Photo of Monkey" alt="Background Image" src="img/photos/DSCF4839_Uluwatu.jpg"> </div>
+                <div class="hover-state">
+                    <div class="align-vertical">
+                        <h3><span class="fa fa-map-marker"></span> Denpassar, Bali</h3>
+                        <p> Uluwatu Temple </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 project">
+                <div class="background-image-holder"> <img class="Lighthouse Photo" alt="Background Image" src="img/photos/IMG_1458_Tybee.jpg">
+                </div>
+                <div class="hover-state">
+                    <div class="align-vertical">
+                        <h3><span class="fa fa-map-marker"></span> Tybee Island, Georgia</h3>
+                        <p> Tybee Island Lighthouse </p>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-faded">
+        <div class="feature-content">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="row">
-                            <div class="col-xs-2">
-                                <span class="fa fa-laptop fa-2x"></span>
-                            </div>
-                            <div class="col-xs-10">
-                                <div>
-                                    <h4>UX Design</h4>
-                                </div>
-                                <div style="">
-                                    <p> Research, Wireframes, User Flows, Mockups, Walkthroughs </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="row">
-                            <div class="col-xs-2"> <span class="fa fa-mobile fa-2x"></span>
-                            </div>
-                            <div class="col-xs-10">
-                                <div>
-                                    <h4>UI Design</h4>
-                                </div>
-                                <div style="">
-                                    <p> Comps, Interaction Specs, Clickable Prototypes, Style Guides, Visual Assets </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="row">
-                            <div class="col-xs-2"> <span class="fa fa-pencil fa-2x"></span>
-                            </div>
-                            <div class="col-xs-10">
-                                <div>
-                                    <h4>Branding</h4>
-                                </div>
-                                <div style="">
-                                    <p> Logos, Stationary, Collateral, Websites, Advertisements, Illustrations </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="row">
-                            <div class="col-xs-2"> <span class="fa fa-code fa-2x"></span>
-                            </div>
-                            <div class="col-xs-10">
-                                <div>
-                                    <h4>Web Development</h4>
-                                </div>
-                                <div style="">
-                                    <p> Responsive websites, prototypes or landing pages built with custom HTML/CSS, Bootstrap, or a customized Wordpress Theme. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- /.row -->
-            </div>
-            <!-- /.container -->
-        </section>
-        <!--// END Shop 1-2 -->
-         <!-- Start Content Block 1-9 -->
-        <section id="results" class="content-1-9 content-block">
-            <div class="container">
-                <div class="underlined-title">
-                    <div>
-                        <h1>Companies Who <a href="#contact" onclick="_gs('event', 'Clicked quote request')">Hire Me</a> Get Results</h1>
-                    </div>
-                    <hr>
-                </div>
-                <div class="row content-1-7" id="clientlogos2">
-                    <div class="col-md-2 col-sm-4 col-xs-6"> <img alt="Client Logo" src="images/partner-logos/alma-logo.jpg">
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-xs-6"> <img alt="Client Logo" src="images/partner-logos/graph-alchemist.png">
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-xs-6"> <img alt="Client Logo" src="images/partner-logos/genwi.png">
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-xs-6"> <img alt="Client Logo" src="images/partner-logos/nike.png">
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-xs-6"> <img alt="Client Logo" src="images/partner-logos/ricoh-logo.png">
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-xs-6"> <img alt="Client Logo" src="images/partner-logos/idl-logo.jpg">
-                    </div>
-                </div>
-                <!--end of row-->
-                <div class="row">
-                    <div class="col-md-4 col-sm-12 col-xs-12 pad25">
-                        <div class="col-xs-2"> <span class="fa fa-trophy"></span>
-                        </div>
-                        <div class="col-xs-10">
-                            <div>
-                                <h4>Product Design Awards</h4>
-                            </div>
-                            <div>
-                                <p> Alma has won mulitple awards for data visualization and ease-of-use. Tripfind.me took Best Design at the 2012 Portland Startup Weekend. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-12 col-xs-12 pad25">
-                        <div class="col-xs-2"> <span class="fa fa-star"></span>
-                        </div>
-                        <div class="col-xs-10">
-                            <div>
-                                <h4>5-Star User Ratings</h4>
-                            </div>
-                            <div>
-                                <p> Users consistently rate the Alma platform 4-stars or higher in ease-of-use and say things like this: "I'm glad to finally have a tool that makes sense." </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-12 col-xs-12 pad25">
-                        <div class="col-xs-2"> <span class="fa fa-heart"></span>
-                        </div>
-                        <div class="col-xs-10">
-                            <div>
-                                <h4>Increased Engagement</h4>
-                            </div>
-                            <div>
-                                <p> After implementing a streamlined user flow and updated UI for Genwi's mobile app builder platform, user engagement increased 20%. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-12 col-xs-12 pad25">
-                        <div class="col-xs-2"> <span class="fa fa-line-chart"></span>
-                        </div>
-                        <div class="col-xs-10">
-                            <div>
-                                <h4>Conversion Rate Growth</h4>
-                            </div>
-                            <div>
-                                <p> By rebranding, enhancing landing page designs, utilizing A/B testing and modifying call-to-actions, conversation rates at GraphAlchemist rose 15%. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-12 col-xs-12 pad25">
-                        <div class="col-xs-2"> <span class="fa fa-dollar"></span>
-                        </div>
-                        <div class="col-xs-10">
-                            <div>
-                                <h4>More Online Leads</h4>
-                            </div>
-                            <div>
-                                <p> Relaunching the ABS Ricoh website, in conjunction with targeted email marketing &amp; inbound linking, increased online leads by a whopping 300%. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-12 col-xs-12 pad25">
-                        <div class="col-xs-2"> <span class="fa fa-search"></span>
-                        </div>
-                        <div class="col-xs-10">
-                            <div>
-                                <h4>Top Search Results</h4>
-                            </div>
-                            <div>
-                                <p> Within days of launch, both CUP Coffee Company and Cannery Row Apartments made it to the top of front page results for their desired keywords. </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- /.row -->
-            </div>
-            <!-- /.container -->
-        </section>
-        <!-- // End Content Block 1-9 -->
-        <!-- Start Content Block 2-4 -->
-        <section id="testify" class="content-block content-2-4 min-height-400px bg-deepocean">
-            <div class="container text-center">
-                <div class="row">
-                    <div class="col-sm-10 col-sm-offset-1">
-                        <div class="item">
-                            <div><span class="fa fa-quote-left fa-3x white pull-left"></span></div>
-                            <div>
-                                <h2>Kate is the best UX designer I've ever worked with. Her uncanny ability to create something out of nothing - that is, a vague idea into an elegant, functional design never ceases to amaze me.</h2>
-                            </div>
-                            <div><span class="fa fa-quote-right fa-3x white pull-right"></span></div>
-                            <div>
-                                <h3 class="text-muted">Jack Macleod, President and CRO - <a href="http://getalma.com/" target="_blank">Alma</a></h3>
-                            </div>
-
-
-                        </div>
-                    </div>
-                    <!--<div class="col-sm-10 col-sm-offset-1">
-                        <div class="item">
-                            <div>
-                                <h2>Kate always delivered more than expected, both on the creative side, as well as with insight, and I’m looking forward to learning from her on more projects in the future.</h2>
-                            </div>
-                            <div>
-                                <h3 class="text-muted">John Scherieber, Creative VP - <a href="http://idlww.com/" target="_blank">IDL Worldwide</a></h3>
-                            </div>
-                        </div>
-                    </div>-->
-                </div>
-            </div>
-            <!-- /.container -->
-        </section>
-        <!--// END Content Block 2-4 -->
-        <!-- Start Content Block 1-3 -->
-        <section id="packages" class="content-block content-1-3">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="underlined-title">
-                            <div>
-                                <h1>Packages for all stages of business</h1>
-                                <p class="lead"> Not sure what you need, or need a different combo? Not to worry - all clients recieve a detailed, customized quote &amp; project plan based on specific business needs and deliverables. </p>
-                            </div>
-                            <hr>
-                        </div>
-                        <div class="services-wrapper">
-                            <div class="col-md-4">
-                                <div class="icon bg-turquoise"> 
-                                    <span class="fa fa-rocket"></span>
-                                </div>
-                                <div>
-                                    <h4>The Product Marketer</h4>
-                                </div>
-                                <div>
-                                    <p> Killer ideas need a killer brand &amp; marketing materials. I design logos and identity packages, marketing collateral, landing pages &amp; engaging responsive websites, using the tools that work for you: custom HTML/CSS, Bootstrap or Wordpress Theme Customizations. </p>
-                                    <p> Typical Timeline: 1-2 weeks </p>
-                                    <h5> Starting at $1,500</h5>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="icon bg-aqua">
-                                    <span class="fa fa-code"></span>
-                                </div>
-                                <div>
-                                    <h4>The UI Designer</h4>
-                                </div>
-                                <div>
-                                    <p> Based on your business needs, I provide visual designs, interaction specs and clickable InVision protytypes for your developers to build from. Depending on the complexity of your app, I may also provide Front-End Development or HTML/CSS prototypes. </p>
-                                    <p> Typical Timeline: 2-3 weeks </p>
-                                    <h5>Starting at $4,000</h5>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="icon bg-turquoise"> 
-                                    <span class="fa fa-laptop"></span>
-                                    <span class="fa fa-mobile"></span>
-                                </div>
-                                <div>
-                                    <h4>
-                                        The Product Team
-                                    </h4>
-                                </div>
-                                <div style="">
-                                    <p> From idea to MVP &amp; launch - This is my specialty! UX &amp; UI design for web or mobile applications, suggested versioning plans, user onboarding considerations and more. I can assist with UX research &amp; strategy or simply design based on research you provide. </p>
-                                    <p> Typical Timeline: 3-6 weeks </p>
-                                    <h5>Starting at $10,000</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- /.row -->
-                <div class="row pad25">
-                    <a href="https://calendly.com/kbagoy/consult" target="_blank" class="btn btn-danger" onclick="_gs('event', 'Clicked quote request')">Schedule a FREE 30-Minute Consulation</a>
-                </div>
-                <!-- /.row -->
-                <div class="row pad25">
-                    <p><span class="fa fa-clock-o"></span> In a hurry to launch? Need last minute materials for your shareholders meeting? I understand the startup life and want to help! Ask me about RUSH projects.</p>
-                </div>
-            </div>
-            <!-- /.container -->
-        </section>
-        <!--// END Content Block 1-3 -->
-        <!-- Start Content Block 2-8 -->
-        <section id="casestudy" class="content-2-8 content-block-nopad bg-deepocean">
-            <div class="col-md-12">
-                <h1 class="text-center">Featured Work</h1>
-            </div>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-6">
-                        <img class="img-responsive featuredimage" src="images/featuredwork/alma-websitedesign.png" alt="screencap of getalma website">
-                    </div>
-                    <div class="col-md-5 content clearfix">
-                            <h2 class="white">Case-Study: Alma</h2>
-                            <p> In addition to designing prototypes, wireframes, user flows and iterative feature comps for the Alma learning management and student information platform, I work with the product team on strategy &amp; implementation support, provide creative direction for all brand materials and designed the <a href="http://www.getalma.com" target="_blank">getalma.com</a> marketing site. </p>
-                        <div class="row pad15">
-                            <div class="col-xs-1">
-                                <span class="fa fa-user fa-2x"></span>
-                            </div>
-                            <div class="col-xs-10">
-                                <div>
-                                    <h3>Role-Based Design</h3>
-                                </div>
-                                <div>
-                                    <p> Different users have different needs so our app utilizes role-based workflows. This means designing things multiple times, but it’s ultimately a better experience for our schools. </p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /.row -->
-                        <div class="row pad15">
-                            <div class="col-xs-1">
-                                <span class="fa fa-dashboard fa-2x"></span>
-                            </div>
-                            <div class="col-xs-10">
-                                <div>
-                                    <h3>Complex</h3>
-                                </div>
-                                <div>
-                                    <p> In my first year we redesigned the app from the ground up – including more than 100 features – that’s a lot of user flows! </p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /.row -->
-                        <div class="row pad15">
-                            <div class="col-xs-1">
-                                <span class="fa fa-certificate fa-2x"></span>
-                            </div>
-                            <div class="col-xs-10">
-                                <div>
-                                    <h3>Innovative</h3>
-                                </div>
-                                <div>
-                                    <p> We’ve taken an innovative approach to design, adding time-saving enhancements and bringing data forward to provide insight where possible. </p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /.row -->
-                        <div class="row pad15">
-                            <div class="col-xs-1">
-                            </div>
-                            <div class="col-xs-10">
-                                <div> 
-                                    <a href="http://getalma.com" class="btn btn-outline outline-light" target="_blank" onclick="_gs('event', 'Clicked visit alma')">Visit Alma</a>
-                                    <a href="#contact" class="btn btn-outline" target="_blank" onclick="_gs('event', 'Clicked hire button after alma')"> or Hire Me</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /.row -->
-                    </div>
-                </div>
-                <!-- /.row-->
-            </div>
-            <!-- /.container -->
-        </section>
-        <!-- // End Content Block 2-8 -->
-        <!-- Start Content Block 2-9 -->
-        <section id="featuredwork" class="content-2-9">
-            <div class="project-wrapper bg-white">
-                <div class="col-md-3 col-sm-6 project">
-                    <div class="background-image-holder">
-                        <img class="background-image" src="images/featuredwork/Portland-CUP-Coffee-Logo.png" alt="cup coffee logo">
-                    </div>
-                    <div class="hover-state">
-                        <div class="align-vertical">
-                            <div>
-                                <h3>Cup Coffee Company</h3>
-                            </div>
-                            <div>
-                                <p>Identity, Marketing Site Design, Wordpress Customization</p>
-                            </div>
-                            <a href="http://katebagoy.com/blog/1952/" class="btn btn-outline outline-light" onclick="_gs('event', 'Clicked Cup case study')" target="_blank">See More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 project">
-                    <div class="background-image-holder"> <img class="background-image" src="images/featuredwork/tripfindme-interaction-design-UX.png" alt="screenshot of tripfinder UI">
-                    </div>
-                    <div class="hover-state">
-                        <div class="align-vertical">
-                            <div>
-                                <h3>Tripfind.me</h3>
-                            </div>
-                            <div>
-                                <p> 2012 Portland Startup Weekend Projects - UI, UX for Travel Discovery </p>
-                            </div>
-                            <a href="http://katebagoy.com/blog/tripfindme/" class="btn btn-outline outline-light" onclick="_gs('event', 'Clicked Tripfind case study')" target="_blank">See More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 project">
-                    <div class="background-image-holder"> <img class="background-image" src="images/featuredwork/iSites-monetize.png" alt="mock of mobile application from genwi app builder">
-                    </div>
-                    <div class="hover-state">
-                        <div class="align-vertical">
-                            <div>
-                                <h3>Genwi.com</h3>
-                            </div>
-                            <div>
-                                <p> Genwi App Builder - Webapp UI/UX design, Mobile app UI/UX, Marketing Website, Marketing collateral </p>
-                            </div>
-                            <a href="http://katebagoy.com/blog/genwi/" class="btn btn-outline outline-light" onclick="_gs('event', 'Clicked genwi case study')" target="_blank">See Case Study</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 project">
-                    <div class="background-image-holder"> <img class="background-image" src="images/featuredwork/graph-alchemist-landing-2.jpg" alt="screencap of social graph user-interface">
-                    </div>
-                    <div class="hover-state">
-                        <div class="align-vertical">
-                            <div>
-                                <h3>GraphAlchemist (Formerly Wikisway)</h3>
-                            </div>
-                            <div>
-                                <p> Webapp UX &amp; UI for graph database visualization, marketing design, website dev. </p>
-                            </div>
-                            <a href="#" class="btn btn-outline outline-light disabled" onclick="_gs('event', 'Clicked graphalchecmist casestudy')">Case Study Coming Soon</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- /.project-wrapper -->
-        </section>
-        <!-- // End Content Block 2-9 -->
-        <!-- Start Basic 1-23 -->
-        <section id="about" class="basic-1-23 content-block">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-5 col-sm-12"> <img class="img-responsive img-circle" src="images/Kate-Bagoy2.jpg" alt="Kate Bagoy Headshot">
-                    </div>
-                    <div class="col-lg-8 col-md-7 col-sm-12">
-                        <div>
-                            <h2> Who is Kate?</h2>
-                        </div>
-                        <div>
-                            <p> After earning a BFA in graphic design, I started my career working for Nike. While I loved the design culture, I loved tech more and left the berm to earn an MBA in Marketing &amp; move to Silicon Valley to work as a product manager at a mobile startup. While the bay area wasn't a fit, I've been working with startups and new businesses since -- I love helping companies grow, and I can't imagine only doing one type of design job every day! </p>
-                            <p> I am also a photographer, an animal lover, a volunteer, a constant learner, a world-traveller, an organizer, an artist, an avid reader and, at the core, a problem solver – I thrive when I can observe, analyze, organize and take projects apart only to put them together in a new and creative way. </p>
-                            <p> I live and work (remotely) in Savannah, GA but travel whenever possible! A few of my favorite pics are below.</p>
-                            <p> For complete work history and specialties, visit <a href="http://linkedin.com/in/katebagoy">LinkedIn</a>. For more travel photos <a href="http://instagram.com/kbagoy" target="_blank">follow me on instagram</a>. </p>
-                        </div>
-                    </div>
-                </div>
-                <!-- /.row -->
-            </div>
-            <!-- /.container -->
-        </section>
-        <!--// END Basic 1-23 -->
-        <!-- Start Content Block 2-9 -->
-        <section id="photos" class="content-2-9">
-            <div class="project-wrapper">
-                <div class="col-md-3 col-sm-6 project">
-                    <div class="background-image-holder"> <img class="background-image" alt="Photo of Viewfinder with Beach in Background" src="images/photos/Jacksonville_Beach_Florida-1.jpg">
-                    </div>
-                    <div class="hover-state">
-                        <div class="align-vertical">
-                            <h3><span class="fa fa-map-marker"></span> Jacksonville Beach, Florida</h3>
-                            <p> Public Fishing Pier </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 project">
-                    <div class="background-image-holder"> <img class="Photo of Floating Homes" alt="Background Image" src="images/photos/Bagoy-World-Nomads-Submission-1.jpg">
-                    </div>
-                    <div class="hover-state">
-                        <div class="align-vertical">
-                            <h3><span class="fa fa-map-marker"></span> Siem Reap, Cambodia</h3>
-                            <p> Tonle Sap Floating Village </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 project">
-                    <div class="background-image-holder"> <img class="Photo of Monkey" alt="Background Image" src="images/photos/Bali-Uluwatu-Temple-24.jpg"> </div>
-                    <div class="hover-state">
-                        <div class="align-vertical">
-                            <h3><span class="fa fa-map-marker"></span> Denpassar, Bali</h3>
-                            <p> Uluwatu Temple </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 project">
-                    <div class="background-image-holder"> <img class="Lighthouse Photo" alt="Background Image" src="images/photos/Tybee_Island_Georgia-1.jpg">
-                    </div>
-                    <div class="hover-state">
-                        <div class="align-vertical">
-                            <h3><span class="fa fa-map-marker"></span> Tybee Island, Georgia</h3>
-                            <p> Tybee Island Lighthouse </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- /.project-wrapper -->
-        </section>
-        <!-- // End Content Block 2-9 -->
-        <!-- Start Contact 1 -->
-        <section id="contact" class="content-block contact-1 bg-clouds">
-            <div class="container">
-                <div class="col-sm-10 col-sm-offset-1">
-                    <div class="underlined-title">
-                        <div>
-                            <h1>How Can I Help Your Business Grow?</h1>
-                        </div>
+                <div class="col-sm-10 offset-sm-1">
+                    <div class="text-sm-center">
+                        <h1>How Can I Help Your Business Grow?</h1>
                         <hr>
-                        <div>
-                            <h4>Currently Scheduling Projects for <span class="pomegranate"><strong>September 2016</strong></span>.</h4>
-                        </div>
+                        <h4>Currently Scheduling Projects for <strong>November 2016</strong>.</h4>
+                    </div>
 
-                    </div>
-                    <div class="row">
-                        <h4>Ready to Get Started?</h4>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-4 col-sm-offset-1 well text-center pull-right">
-                            <p class="lead">Book Your Free 30-Minute Consultation Now!</p>
-                            <!-- Calendly link widget begin -->
-                            <link href="https://calendly.com/assets/external/widget.css" rel="stylesheet">
-                            <script src="https://calendly.com/assets/external/widget.js" type="text/javascript"></script>
-                            <a href="" onclick="Calendly.showPopupWidget('https://calendly.com/kbagoy');return false;" class="btn btn-primary btn-lg btn-block"><span class="fa guardsman fa-calendar"></span> Book It Now >></a>
-                            <!-- Calendly link widget end -->
-                        </div>
-                        <div class="col-sm-7">
-                            <p>The first step is to schedule a free, 30 minute consultation. During this call we will primarily discuss your business, your customers and your project, and determine how I may be able to help you. If it's a match, we will reserve a slot for your project and discuss next steps. If it's not a match, I will do my best to steer you in the right direction, offer good advice or connect you with someone that can help.</p>
-                            <p>If you'd like to ask about a speaking engagement, in-house consulting, writing an article or if you are a student requesting a portfolio review, I'd prefer if you'd creatively contact me via social media. But you can also use <button type="button" class="btn-inline turquoise" data-toggle="modal" data-target="#myModal" onclick="_gs('event', 'Send a Message button')">this form</button> to send me an email.</p>
-                        </div>
+                    <div class="row pushdown">
                         
+                        <div class="col-sm-7">
+                            <h4>Ready to Get Started?</h4>
+                            <p>The first step is to schedule a free, 30 minute consultation. During this call we will primarily discuss your business, your customers and your project, and determine how I may be able to help you. If it's a match, we will reserve a slot for your project and discuss next steps. If it's not a match, I will do my best to steer you in the right direction, offer good advice or connect you with someone that can help.</p>
+                            <p>If you'd like to ask about a speaking engagement, in-house consulting, writing an article or if you are a student requesting a portfolio review, I'd prefer if you'd creatively contact me via social media. But you can also use
+                            <button type="button" class="btn-link" data-toggle="modal" data-target="#myModal" onclick="_gs('event', 'Send a Message button')">this form</button> to send me an email.</p>
+                        </div>
+                        <div class="col-sm-4 offset-sm-1 card text-xs-center pushdown">
+                            <div class="card card-block">
+                                <p class="card-title lead">Book Your Free 30-Minute Consultation Now!</p>
+                                <p class="card-text">
+                                <!-- Calendly link widget begin -->
+                                <link href="https://calendly.com/assets/external/widget.css" rel="stylesheet">
+                                <script src="https://calendly.com/assets/external/widget.js" type="text/javascript"></script>
+                                </p>
+                                <a href="" onclick="Calendly.showPopupWidget('https://calendly.com/kbagoy');return false;" class="btn btn-primary btn-lg btn-block"><span class="fa fa-calendar"></span> Book It Now >></a>
+                                <!-- Calendly link widget end -->
+                            </div>
+                        </div>                        
                     </div>
-                </div>
-                <!-- /.col-sm-10 -->
+                </div><!-- /.col-sm-10 -->
             </div>
-            <!-- /.container -->
-        </section>
-        <!-- /.content-block -->
-        <!-- / Start Contact Modal -->
-       <!-- Modal -->
-       <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-         <div class="modal-dialog" role="document">
-           <div class="modal-content">
-             <div class="modal-header">
-               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-               <h4 class="modal-title" id="myModalLabel">Send Kate a Message</h4>
-             </div>
-             <div class="modal-body form-container">
-                <p>Just a heads up that it may take a week or more for me to respond to email. If you are a new client and would like to work with me, please <a href="https://calendly.com/kbagoy/consult" target="_blank">Schedule a Consultation</a> instead.
-                          <div id="message">
-                          </div>
-                          <form method="post" action="js/contact-form.php" name="contactform" id="contactform">
-                              <div class="row">
-                                  <div class="col-sm-4">
-                                      <div class="form-group">
-                                          <input name="name" id="name" type="text" value="" placeholder="Name" class="form-control">
-                                      </div>
-                                  </div>
-                                  <div class="col-sm-4">
-                                      <div class="form-group">
-                                          <input name="email" id="email" type="text" value="" placeholder="Email" class="form-control">
-                                      </div>
-                                  </div>
-                                  <div class="col-sm-4">
-                                      <div class="form-group">
-                                          <input name="phone" id="phone" type="text" value="" placeholder="Phone" class="form-control">
-                                      </div>
-                                  </div>
-                              </div>
-                              <!-- /.row -->
-                              <div class="form-group">
-                                  <textarea name="comments" id="comments" class="form-control" rows="3" placeholder="What is your idea and how can I help?"> </textarea>
-                                  <div>
-                                       <p class="small text-muted"> Your info is safe with me, I promise - I don't spam. I probably won't even add you to my personal contacts.</p>
-                                  </div>
-                              </div>
-                              <div class="row">
-                                <div class="col-xs-3 col-xs-offset-9">
-                                  <div class="form-group">
-                                      <button class="btn btn-primary" type="submit" id="cf-submit" name="submit">Send</button>
-                                  </div>
-                                </div>
-                              </div>
-                          </form>
-                      <!-- /.form-container -->
-             </div>
-           </div>
-         </div>
-       </div> <!-- //END Modal -->
-        <!--// END Contact 1 -->
-        <!-- Start Footer 1-2 -->
-        <section class="content-block-nopad bg-deepocean">
-            <div class="container footer-1-2"> 
-                <h3 class="white">Kate Bagoy, Full Stack Designer</h3>
-                 <div>
-                        <ul class="contact-info">
-                            <li><span class="fa fa-phone"></span> (503) 778 - 0922</li>
-                            <li> <span class="fa fa-envelope"></span> <a href="mailto:kbagoy@gmail.com">kbagoy@gmail.com</a> </li>
-                        </ul>
-                    </div>
-                <div class="big-social row">
-                    <div class="col-sm-2 col-sm-offset-1 social-item linkedin">
-                        <a href="http://linkedin.com/in/katebagoy" target="_blank" onclick="_gs('event', 'Clicked linkedin')"> <i class="social-icon fa fa-2x fa-linkedin"></i>
-                            <h4 class="action">Connect</h4> </a>
-                    </div>
-                    <div class="col-sm-2 social-item twitter">
-                        <a href="http://twitter.com/kbagoy" target="_blank" onclick="_gs('event', 'Clicked twitter')"> <i class="social-icon fa fa-2x fa-twitter"></i>
-                            <h4 class="action">Learn</h4> </a>
-                    </div>
-                    <div class="col-sm-2 social-item instagram">
-                        <a href="http://instagram.com/kbagoy" target="_blank" onclick="_gs('event', 'Clicked instagram')"> <i class="social-icon fa fa-2x fa-instagram"></i>
-                            <h4 class="action">Follow</h4> </a>
-                    </div>
-                    <div class="col-sm-2 social-item pinterest">
-                        <a href="http://pinterest.com/kbagoy" target="_blank" onclick="_gs('event', 'Clicked pinterest')"> <i class="social-icon fa fa-2x fa-pinterest"></i>
-                            <h4 class="action">Discover</h4> </a>
-                    </div>
-                    <div class="col-sm-2 social-item rss">
-                        <a href="http://katebagoy.com/blog/" target="_blank" onclick="_gs('event', 'Clicked RSS')"> <i class="social-icon fa fa-2x fa-rss"></i>
-                            <h4 class="action">Subscribe</h4> </a>
-                    </div>
-                </div>
-            </div>
-            <!-- /.container -->
-        </section>
-        <!--// END Footer 1-2 -->
-        <!-- Start Footer 1-4 -->
-        <!--For use with Mailchimp when setup complete
-        <section id="footer" class="content-block-nopad bg-deepocean">
-            <div class="container footer-1-4">
-                <div>
-                    <h2>Want startup news, design articles and life hacking tips in your inbox?</h2>
-                </div>
-                <div>
-                    <p class="lead"><a href="https://creativemarket.com/theme_spirit">Signup to recieve my monthly article roundup - I read the news so you don't have to!</a></p>
-                </div>
-                <form class="footer-form" action="#">
-                    <input type="text" name="" value="" placeholder="" required="">
-                    <input type="submit" name="" value="Send">
-                </form>
-                <ul class="social social-light">
-                    <li><a href="http://linkedin.com/in/katebagoy" target="_blank"><i class="fa fa-2x fa-linkedin"></i></a></li>
-                    <li><a href="http://twitter.com/kbagoy" target="_blank"><i class="fa fa-2x fa-twitter"></i></a></li>
-                    <li><a href="http://instagram.com/kbagoy" target="_blank"><i class="fa fa-2x fa-instagram"></i></a></li>
-                    <li><a href="http://pinterest.com/kbagoy" target="_blank"><i class="fa fa-2x fa-pinterest"></i></a></li>
+        </div>
+    </section>
+
+    <footer id="main-footer">
+        <div class="container">
+
+            <div class="text-sm-center">
+                <h2 class="display-1">Kate Bagoy</h2>
+                <h3 class="text-uppercase">Full Stack UX Design for Startups</h3>
+                <ul class="contact-info list-unstyled list-inline">
+                    <li class="list-inline-item"><a href="tel:555-555-5555"><span class="fa fa-phone"></span> (503) 778 - 0922</a></li>
+                    <li class="list-inline-item"> <a href="mailto:kbagoy@gmail.com"><span class="fa fa-envelope"></span> kbagoy@gmail.com</a> </li>
                 </ul>
             </div>
-        </section> -->
-        <!--// END Footer 1-4 -->
-        <!-- // END Pasted Content Blocks -->
-        <!-- Scripts at the end... you know the score! -->
-        <!-- Core Scripts (Do not remove) -->
-        <script type="text/javascript" src="js/jquery-1.11.1.min.js">
-        </script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" crossorigin="anonymous"></script>
-        <!-- Vendor Scripts (Feel free to remove any that you aren't using in your final export) -->
-        <script type="text/javascript" src="js/modernizr.custom.js">
-        </script>
-        <script type="text/javascript" src="js/headroom.js">
-        </script>
-        <!-- Header 1 -->
-        <script type="text/javascript" src="js/jquery.headroom.js">
-        </script>
-        <!-- Header 1 -->
-        <script type="text/javascript" src="js/count.down.min.js">
-        </script>
-        <!-- Promo 2 Countdown -->
-        <script type="text/javascript" src="js/owl.carousel.min.js">
-        </script>
-        <!-- Owl Carousel -->
-        <script type="text/javascript" src="js/jquery.counterup.min.js">
-        </script>
-        <!-- Content 2-7 Counter -->
-        <script type="text/javascript" src="js/waypoints.min.js">
-        </script>
-        <!-- Content 2-7 Counter -->
-        <script type="text/javascript" src="js/jquery.isotope.min.js">
-        </script>
-        <!-- Gallery Filter -->
-        <script type="text/javascript" src="js/jquery.magnific-popup.min.js">
-        </script>
-        <!-- Gallery Popup -->
-        <script type="text/javascript" src="js/sendmail.js">
-        </script>
-        <!-- Contact Form -->
-        <script src="https://maps.google.com/maps/api/js?sensor=true" type="text/javascript">
-        </script>
-        <!-- Theme Scripts (Do not remove) -->
-        <script type="text/javascript" src="js/bskit-scripts.js">
-        </script>
-        <!-- Google Code for Contact Form Submission Conversion Page -->
-        <script type="text/javascript">
+            <div class="big-social row">
+                <div class="col-sm-2 offset-sm-1 social-item linkedin">
+                    <a href="http://linkedin.com/in/katebagoy" target="_blank" onclick="_gs('event', 'Clicked linkedin')"> <i class="social-icon fa fa-2x fa-linkedin"></i>
+                        <h4 class="action">Connect</h4> </a>
+                </div>
+                <div class="col-sm-2 social-item twitter">
+                    <a href="http://twitter.com/kbagoy" target="_blank" onclick="_gs('event', 'Clicked twitter')"> <i class="social-icon fa fa-2x fa-twitter"></i>
+                        <h4 class="action">Learn</h4> </a>
+                </div>
+                <div class="col-sm-2 social-item instagram">
+                    <a href="http://instagram.com/kbagoy" target="_blank" onclick="_gs('event', 'Clicked instagram')"> <i class="social-icon fa fa-2x fa-instagram"></i>
+                        <h4 class="action">Follow</h4> </a>
+                </div>
+                <div class="col-sm-2 social-item pinterest">
+                    <a href="http://pinterest.com/kbagoy" target="_blank" onclick="_gs('event', 'Clicked pinterest')"> <i class="social-icon fa fa-2x fa-pinterest"></i>
+                        <h4 class="action">Discover</h4> </a>
+                </div>
+                <div class="col-sm-2 social-item rss">
+                    <a href="http://katebagoy.com/blog/" target="_blank" onclick="_gs('event', 'Clicked RSS')"> <i class="social-icon fa fa-2x fa-rss"></i>
+                        <h4 class="action">Subscribe</h4> </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-sm-center">
+                    &copy; 2016 Kate Bagoy
+                </div>
+            </div>
+
+
+            <!--<div class="row">
+                <div class="col-md-6">
+                    &copy; 2016 Kate Bagoy
+                </div>
+                <div class="col-md-2">
+                    <h6>Our Products</h6>
+                    <ul class="list-unstyled">
+                        <li><a>Features</a></li>
+                        <li><a>Solutions</a></li>
+                        <li><a>Plans</a></li>
+                        <li><a>Sign In</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h6>Our Team</h6>
+                    <ul class="list-unstyled">
+                        <li><a>About</a></li>
+                        <li><a>Highlighs</a></li>
+                        <li><a>Investors</a></li>
+                        <li><a>Partners</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h6>Other Things</h6>
+                    <ul class="list-unstyled">
+                        <li><a>Jobs</a></li>
+                        <li><a>Contact</a></li>
+                        <li><a>FAQ</a></li>
+                    </ul>
+                </div>
+            </div>-->
+        </div>
+    </footer>
+
+    <!-- / Start Contact Modal -->
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title">Send Kate a Message</h4>
+                </div>
+                <div class="modal-body form-container">
+                    <p>Just a heads up that it may take a week or more for me to respond to email. If you are a new client and would like to work with me, please <a href="" onclick="Calendly.showPopupWidget('https://calendly.com/kbagoy');return false;" target="_blank">Schedule a Consultation</a> instead.
+                        <div id="message">
+                        </div>
+                        <form method="post" action="js/contact-form.php" name="contactform" id="contactform">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="form-group">
+                                        <input name="name" id="name" type="text" value="" placeholder="Name" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="form-group">
+                                        <input name="email" id="email" type="text" value="" placeholder="Email" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="form-group">
+                                        <input name="phone" id="phone" type="text" value="" placeholder="Phone" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.row -->
+                            <div class="form-group">
+                                <textarea name="comments" id="comments" class="form-control" rows="3" placeholder="What is your idea and how can I help?"> </textarea>
+                                <div>
+                                    <p class="small text-muted"> Your info is safe with me, I promise - I don't spam. I probably won't even add you to my personal contacts.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-3 col-xs-offset-9">
+                                    <div class="form-group">
+                                        <button class="btn btn-primary" type="submit" id="cf-submit" name="submit">Send</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <!-- /.form-container -->
+                </div>
+            </div>
+        </div>
+    </div><!-- //END Modal -->
+
+    <!-- jQuery first, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.iMissYou.min.js"></script>
+    <!-- Google Code for Contact Form Submission Conversion Page -->
+    <script type="text/javascript">
         /* <![CDATA[ */
         var google_conversion_id = 1029821259;
         var google_conversion_language = "en";
@@ -780,13 +646,25 @@
         var google_conversion_label = "7UBpCLmIjGIQy6aH6wM";
         var google_remarketing_only = false;
         /* ]]> */
-        </script>
-        <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
-        </script>
-        <noscript>
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
         <div style="display:inline;">
-        <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/1029821259/?label=7UBpCLmIjGIQy6aH6wM&amp;guid=ON&amp;script=0"/>
+            <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/1029821259/?label=7UBpCLmIjGIQy6aH6wM&amp;guid=ON&amp;script=0" />
         </div>
-        </noscript>
-    </body>
+    </noscript>
+    <script>
+        jQuery(document).ready(function($){
+            $.iMissYou({
+                title: "I Miss you !",
+                favicon: {
+                    enabled: true,
+                    src:'img/iMissYouFavicon.ico'
+                }
+            });
+        });
+    </script>
+</body>
+
 </html>

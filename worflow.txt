@@ -1,0 +1,7 @@
+worflow
+
+--watch styles:styles/css
+
+uncomment / comment out used css in app.scss
+add custom in _base.scss
+change variables as desired (i.e. Primary button color = pink)

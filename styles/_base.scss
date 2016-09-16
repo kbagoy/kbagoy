@@ -1,0 +1,391 @@
+// add your custom styles here
+// to learn more about SASS, visit sass-lang.com
+
+
+/* GOOGLE FONTS */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700italic,700,500italic,500,400italic,300italic,300);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700);
+
+/* Startup CSS */
+
+/** TYPOGRAPHY **/
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	line-height: 1.1;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeeligibility;
+	color: #6c6f73;
+}
+
+h1,h2,h3,h4,h5 {
+	color: #333;
+
+}
+
+
+
+h6 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 0.8rem;
+	letter-spacing: 0.1rem;
+}
+
+img {
+	max-width: 100%
+}
+
+nav {
+	background-color: white;
+}
+
+a:hover,
+.btn-link:hover {
+	color: #C0392B;
+}
+
+.pushdown {
+	margin-top: 3rem;
+}
+
+.navbar-nav {
+	margin-top: 5px;
+}
+
+.navbar-brand h3 {
+	color: #1abc9c;
+	text-decoration: none;
+	display: inline;
+	font-size: 1.5rem;
+	padding-left: 10px;
+
+    line-height: 1.5;
+}
+
+.navbar-brand img {
+    display: inline;
+}
+
+#stage {
+	background: -webkit-radial-gradient(circle, rgba(46, 160, 138, 0.4), rgba(0, 0, 0, 1)), url("../../img/product_user_experience_design.jpg") top center no-repeat;
+    background: -moz-radial-gradient(circle, rgba(46, 160, 138, 0.4), rgba(0, 0, 0, 1)), url("../../img/product_user_experience_design.jpg") top center no-repeat;
+    background: radial-gradient(circle, rgba(46, 160, 138, 0.5), rgba(0, 0, 0, 1)), url("../../img/product_user_experience_design.jpg") top center no-repeat;
+	background-size: cover;
+    padding: 60px 0;
+}
+
+#stage-caption {
+	font-size: 1.4rem;
+	font-weight: 200;
+	max-width: 60rem;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 6rem;
+}
+
+#stage-caption h1 {
+	color: white;
+}
+
+#stage-caption .lead {
+    font-size: 2rem;
+    line-height: 1.2;
+    color: white;
+}
+
+#skills {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  background-color: #111111;
+}
+
+#skills h2,
+#skills span {
+	color: #1ABC9B;
+	font-size: 1.5rem;
+}
+
+#skills p {
+	color: #515157;
+}
+
+#skills span {
+	float: right;
+    margin-right: -0.5em;
+}
+
+.feature-content {
+	padding: 7rem 0;
+}
+
+.feature-dark {
+	background: #262F36;
+	color: white;
+}
+
+.feature-dark a:hover {
+	color: white;
+}
+
+.feature-dark h2,
+.feature-dark h3,
+.feature-dark h4 {
+	color: white;
+}
+
+.clientlogos {
+    padding: 50px 0;
+}
+
+.clientlogos img {
+    max-width: 140px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+    opacity: 0.4;
+}
+
+.clientlogos img:hover {
+    opacity: 1;
+}
+
+#results .container{
+	padding: 6rem 0;
+}
+
+.clientresults .fa {
+	color: #1ABC9B;
+}
+
+#services h4,
+#services span,
+#services h6 {
+	text-align: center !important;
+}
+
+#services .text-muted {
+	    font-size: 80%;
+	    text-align: center !important;
+	    margin-bottom: .1rem;
+}
+
+#services .bigicon {
+	background-color: #1ABC9C;
+    height: 175px;
+    width: 175px;
+    max-width: 100%;
+    border-radius: 50%;
+    -o-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    margin: 0 auto 50px;
+    line-height: 175px;
+    color: #fff;
+}
+
+#services .bigicon .fa:last-of-type {
+	padding-top: 3rem;
+}
+
+
+
+//Featured Work
+
+#featuredwork,
+#photos {
+	margin-bottom: 15rem;
+}
+
+.project {
+    height: 260px;
+    overflow: hidden;
+    position: relative;
+    padding: 0;
+}
+
+.project img {
+    min-height: 260px;
+    max-width: 100%;
+    background-size: cover;
+    margin: 0 auto;
+
+}
+
+.project .background-image-holder {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.project .hover-state {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    background-color: rgba(44, 62, 80, 0.6);
+    text-align: center;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+    opacity: 0;
+    padding: 0 25px;
+}
+
+.project:hover .hover-state {
+    opacity: 1;
+}
+
+.project .hover-state h3 {
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: 8px;
+}
+
+.project .hover-state p {
+    color: #fff;
+}
+
+.project .hover-state .align-vertical {
+    -webkit-transform: translate3d(0, 20px, 0);
+    -moz-transform: translate3d(0, 20px, 0);
+    transform: translate3d(0, 20px, 0);
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+    opacity: 0;
+}
+
+.project:hover .align-vertical {
+    -webkit-transform: translate3d(0, 0px, 0);
+    -moz-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0);
+    opacity: 1;
+}
+
+#contact .card {
+	border: none;
+	min-height: 15rem;
+}
+
+#contact .card-title {
+	margin-top: 2rem;
+}
+
+#contact strong {
+	color: #C0392B;
+}
+
+.availability-ribbon__text {
+	font-weight: bold;
+}
+
+.availability-ribbon.unavailable .availability-ribbon__banner {
+	fill: red;
+}
+
+
+//* Footer *//
+
+#main-footer {
+	background: #262f36;
+	color: white;
+	padding: 6rem 0;
+	font-size: 0.8rem;
+}
+
+#main-footer h2 {
+	color: white;
+}
+
+#main-footer h6,
+#main-footer h3 {
+	color: #718fa9;
+}
+
+#main-footer a,
+#main-footer .list-inline-item {
+	color: #6c6f73;
+}
+
+#main-footer a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.big-social {
+    margin-top: 20px;
+}
+
+.big-social .social-item {
+    text-align: center;
+}
+
+.big-social .social-item a {
+    display: block;
+    border-radius: 4px;
+    padding: 18px;
+    color: #ffffff;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.big-social .social-item a h4 {
+    color: #ffffff;
+    visibility: hidden;
+    margin-bottom: 0;
+}
+
+.big-social .social-item a:hover h4,
+.big-social .social-item a:focus h4 {
+    visibility: visible;
+}
+
+.big-social .social-item.linkedin a:hover,
+.big-social .social-item.linkedin a:focus {
+    background-color: #016bb6;
+}
+
+.big-social .social-item.twitter a:hover,
+.big-social .social-item.twitter a:focus {
+    background-color: #08c1e2;
+}
+
+.big-social .social-item.instagram a:hover,
+.big-social .social-item.instagram a:focus {
+    background-color: #3498DB;
+}
+
+.big-social .social-item.pinterest a:hover,
+.big-social .social-item.pinterest a:focus {
+    background-color: #D90000;
+}
+
+.big-social .social-item.rss a:hover,
+.big-social .social-item.rss a:focus {
+    background-color: #e67e22;
+}
+
+@media only screen and (min-width: 768px) {
+
+	@include media-breakpoint-up(sm) {
+	  html {
+	    font-size: 16px;
+	  }
+	}
+
+}
