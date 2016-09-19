@@ -3,9 +3,7 @@
 
 
 /* GOOGLE FONTS */
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,700italic,700,500italic,500,400italic,300italic,300);
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700);
 
 /* Startup CSS */
 
@@ -17,6 +15,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 html,
 body {
 	height: 100%;
+    width: 100%;
 }
 
 body {
@@ -30,8 +29,6 @@ h1,h2,h3,h4,h5 {
 
 }
 
-
-
 h6 {
 	text-transform: uppercase;
 	font-weight: bold;
@@ -40,12 +37,13 @@ h6 {
 }
 
 img {
-	max-width: 100%
+	max-width: 100%;
 }
 
 nav {
 	background-color: white;
 }
+
 
 a:hover,
 .btn-link:hover {
@@ -75,9 +73,9 @@ a:hover,
 }
 
 #stage {
-	background: -webkit-radial-gradient(circle, rgba(46, 160, 138, 0.4), rgba(0, 0, 0, 1)), url("../../img/product_user_experience_design.jpg") top center no-repeat;
-    background: -moz-radial-gradient(circle, rgba(46, 160, 138, 0.4), rgba(0, 0, 0, 1)), url("../../img/product_user_experience_design.jpg") top center no-repeat;
-    background: radial-gradient(circle, rgba(46, 160, 138, 0.5), rgba(0, 0, 0, 1)), url("../../img/product_user_experience_design.jpg") top center no-repeat;
+	background: -webkit-radial-gradient(circle, rgba(46, 160, 138, 0.4), rgba(0, 0, 0, 1)), url("../img/product_user_experience_design.jpg") center center no-repeat;
+    background: -moz-radial-gradient(circle, rgba(46, 160, 138, 0.4), rgba(0, 0, 0, 1)), url("../img/product_user_experience_design.jpg") center center no-repeat;
+    background: radial-gradient(circle, rgba(46, 160, 138, 0.5), rgba(0, 0, 0, 1)), url("../img/product_user_experience_design.jpg") center center no-repeat;
 	background-size: cover;
     padding: 60px 0;
 }
@@ -142,11 +140,10 @@ a:hover,
 }
 
 .clientlogos {
-    padding: 50px 0;
+    padding: 2rem 0;
 }
 
 .clientlogos img {
-    max-width: 140px;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     transition: all .3s ease;
@@ -161,6 +158,9 @@ a:hover,
 	padding: 6rem 0;
 }
 
+.clientresults {
+    margin: 0;
+}
 .clientresults .fa {
 	color: #1ABC9B;
 }
@@ -202,37 +202,35 @@ a:hover,
 
 
 //Featured Work
+#photos>.row,
+#featuredwork>.row {
+    margin: 0;
+    max-width: 100%;
+}
 
-#featuredwork,
-#photos {
-	margin-bottom: 15rem;
+.project,
+.photo {
+    padding: 0;
+    overflow: hidden;
 }
 
 .project {
-    height: 260px;
-    overflow: hidden;
-    position: relative;
-    padding: 0;
+    min-height: 300px;
 }
 
-.project img {
-    min-height: 260px;
-    max-width: 100%;
-    background-size: cover;
-    margin: 0 auto;
-
+.photo {
+    min-height: 250px;
 }
 
-.project .background-image-holder {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
+.project img,
+.photo img {
     height: 100%;
-    z-index: 0;
+    width: auto;
+    max-width: 100%;
 }
 
-.project .hover-state {
+.project .hover-state,
+.photo .hover-state {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -243,24 +241,30 @@ a:hover,
     -moz-transition: all .5s ease;
     transition: all .5s ease;
     opacity: 0;
-    padding: 0 25px;
 }
 
-.project:hover .hover-state {
+.project:hover .hover-state,
+.photo:hover .hover-state {
     opacity: 1;
 }
 
-.project .hover-state h3 {
+.project .hover-state h3,
+.photo .hover-state h3 {
     color: #fff;
     margin-top: 40px;
     margin-bottom: 8px;
+    padding: 0 25px;
 }
 
-.project .hover-state p {
+
+.project .hover-state p,
+.photo .hover-state p {
     color: #fff;
+    padding: 0 25px;
 }
 
-.project .hover-state .align-vertical {
+.project .hover-state .img-caption,
+.photo .hover-state .img-caption {
     -webkit-transform: translate3d(0, 20px, 0);
     -moz-transform: translate3d(0, 20px, 0);
     transform: translate3d(0, 20px, 0);
@@ -270,7 +274,8 @@ a:hover,
     opacity: 0;
 }
 
-.project:hover .align-vertical {
+.project:hover .img-caption,
+.photo:hover .img-caption {
     -webkit-transform: translate3d(0, 0px, 0);
     -moz-transform: translate3d(0, 0px, 0);
     transform: translate3d(0, 0px, 0);
@@ -350,34 +355,58 @@ a:hover,
     margin-bottom: 0;
 }
 
-.big-social .social-item a:hover h4,
-.big-social .social-item a:focus h4 {
+.small-social .social-item a {
+    display: block;
+    border-radius: 4px;
+    padding: .75rem;
+    font-size: .75rem;
+    text-decoration: none;
+}
+
+.small-social .social-item a:hover {
+    color: #fff;
+}
+
+.small-social .col-lg-1,
+.small-social .col-md-2,
+.small-social .col-sm-3,
+.small-social .col-xs-4 {
+    padding-left: 0;
+}
+
+.social-item a:hover h4,
+.social-item a:focus h4 {
     visibility: visible;
 }
 
-.big-social .social-item.linkedin a:hover,
-.big-social .social-item.linkedin a:focus {
+.social-item.linkedin a:hover,
+.social-item.linkedin a:focus {
     background-color: #016bb6;
 }
 
-.big-social .social-item.twitter a:hover,
-.big-social .social-item.twitter a:focus {
+.social-item.twitter a:hover,
+.social-item.twitter a:focus {
     background-color: #08c1e2;
 }
 
-.big-social .social-item.instagram a:hover,
-.big-social .social-item.instagram a:focus {
+.social-item.instagram a:hover,
+.social-item.instagram a:focus {
     background-color: #3498DB;
 }
 
-.big-social .social-item.pinterest a:hover,
-.big-social .social-item.pinterest a:focus {
+.social-item.pinterest a:hover,
+.social-item.pinterest a:focus {
     background-color: #D90000;
 }
 
-.big-social .social-item.rss a:hover,
-.big-social .social-item.rss a:focus {
+.social-item.rss a:hover,
+.social-item.rss a:focus {
     background-color: #e67e22;
+}
+
+.social-item.shop a:hover,
+.social-item.shop a:focus {
+    background-color: #1ABC9B;
 }
 
 @media only screen and (min-width: 768px) {
@@ -386,6 +415,36 @@ a:hover,
 	  html {
 	    font-size: 16px;
 	  }
+      
 	}
 
 }
+
+@media only screen and (max-width: 667px) {
+
+    body {
+        overflow: hidden;
+    }
+
+    .clientlogos {
+        max-width: 100%;
+    }
+
+    .clientlogos img {
+        padding: 1rem 0;
+    }
+
+    #main-footer h3 {
+        padding-bottom: 1rem;
+    }
+
+    .container {
+        overflow: hidden !important;
+    }
+
+    /*.background-image {
+        overflow: hidden;
+    }*/
+}
+
+
