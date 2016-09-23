@@ -3805,17 +3805,11 @@ a:hover,
   padding: 0;
   overflow: hidden; }
 
-.project {
-  min-height: 300px; }
+  .project img,
+  .photo img {
+    width: 100%;
+   }
 
-.photo {
-  min-height: 250px; }
-
-.project img,
-.photo img {
-  height: 100%;
-  width: auto;
-  max-width: 100%; }
 
 .project .hover-state,
 .photo .hover-state {
@@ -3837,7 +3831,7 @@ a:hover,
 .project .hover-state h3,
 .photo .hover-state h3 {
   color: #fff;
-  margin-top: 40px;
+  margin-top: 1rem;
   margin-bottom: 8px;
   padding: 0 25px; }
 
