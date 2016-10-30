@@ -146,12 +146,18 @@ a:hover,
 
 .feature-dark h2,
 .feature-dark h3,
-.feature-dark h4 {
+.feature-dark h4,
+.feature-green h2 {
 	color: white;
 }
 
 .clientlogos {
     padding: 2rem 0;
+}
+
+.feature-green {
+    background: #1ABC9C;
+    color: white;
 }
 
 .clientlogos img {
@@ -296,6 +302,12 @@ a:hover,
 	color: #C0392B;
 }
 
+// * Mailchimp *//
+
+#mailchimp {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
 
 //* Footer *//
 

@@ -3789,11 +3789,16 @@ a:hover,
 
 .feature-dark h2,
 .feature-dark h3,
-.feature-dark h4 {
+.feature-dark h4,
+.feature-green h2 {
   color: white; }
 
 .clientlogos {
   padding: 2rem 0; }
+
+.feature-green {
+  background: #1ABC9C;
+  color: white; }
 
 .clientlogos img {
   -webkit-transition: all .3s ease;
@@ -3912,6 +3917,10 @@ a:hover,
 
 #contact strong {
   color: #C0392B; }
+
+#mailchimp {
+  padding-top: 3rem;
+  padding-bottom: 2rem; }
 
 #main-footer {
   background: #262f36;
